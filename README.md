@@ -1,1 +1,2 @@
 # CXR-PFT
+This code predicts pulmonary function test (PFT) scores from chest X-rays using a multi-input neural network combining image features (DenseNet121) and metadata (e.g., age, BMI). It includes data preprocessing, custom weighted loss, training optimizations (early stopping, learning rate scheduler), and performance evaluation with metrics like MAE, Pearson correlation, and confusion matrices. Visualizations (scatter plots, residuals) aid in model analysis.
